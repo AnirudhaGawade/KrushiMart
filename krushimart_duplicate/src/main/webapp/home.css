@@ -1,0 +1,133 @@
+@charset "UTF-8";
+#t{
+	height: 20px;
+	width: 200px;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+}
+#bgimg{
+	height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle at 29% 55%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 4%,transparent 4%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 85% 89%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 52%,transparent 52%, transparent 100%),radial-gradient(circle at 6% 90%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 53%,transparent 53%, transparent 64%,transparent 64%, transparent 100%),radial-gradient(circle at 35% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 6%,transparent 6%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 56% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 16%,transparent 16%, transparent 23%,transparent 23%, transparent 100%),radial-gradient(circle at 42% 0%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 3%,transparent 3%, transparent 26%,transparent 26%, transparent 100%),radial-gradient(circle at 29% 28%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 75%,transparent 75%, transparent 100%),radial-gradient(circle at 77% 21%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 35%,transparent 35%, transparent 55%,transparent 55%, transparent 100%),radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 46%,transparent 46%, transparent 76%,transparent 76%, transparent 100%),linear-gradient(45deg, rgb(83, 91, 235),rgb(76, 11, 174));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.submain{
+	background-color: white;
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	height: 90%;
+	width: 95%;
+	border-radius: 35px;
+	
+}
+.logoimg{
+	height: 100px;
+	width: 200px;
+	position: relative;
+    left: 20px;
+    border-radius: 20px;
+}
+
+#cards{
+	display: flex;
+	flex-direction: row;
+}
+#farmer_icon{
+	height: 400px;
+    width: 450px;
+    position: absolute;
+    top: 12px;
+    left: 190px;
+    cursor: pointer;
+}
+#farmer_icon_div{
+	height: 90%;
+	width: 100%;
+	
+}
+#buyer_icon_div{
+	height: 90%;
+	width: 100%;
+	
+}
+#buyer_icon{
+	height: 500px;
+    width: 550px;
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    cursor: pointer;
+}
+.farmer_div{
+	
+	width: 50%;
+	height: 500px;
+	position: relative;
+	top: 20px;
+}
+.buyer_div{
+	
+	width: 50%;
+	height: 500px;
+	position: relative;
+	top: 20px;
+}
+.redirect_button1{
+	height: 40px;
+	width: 100px;
+	position: absolute;
+	left: 50%;
+	top: 410px;
+	text-decoration: none;
+	color: red;
+	background-image: linear-gradient(45deg, rgba(130, 89, 219, 0.2),rgba(44, 192, 226, 0.2),rgba(182, 103, 181, 0.2)),linear-gradient(135deg, rgb(39, 20, 149),rgb(65, 82, 185),rgb(91, 144, 220));
+	border: none;
+	border-radius: 20px;
+	
+	font-weight: bolder;
+}
+.redirect_button2{
+	height: 40px;
+	width: 100px;
+	position: absolute;
+	left: 40%;
+	top: 410px;
+	text-decoration: none;
+	color: red;
+	background-image: linear-gradient(45deg, rgba(130, 89, 219, 0.2),rgba(44, 192, 226, 0.2),rgba(182, 103, 181, 0.2)),linear-gradient(135deg, rgb(39, 20, 149),rgb(65, 82, 185),rgb(91, 144, 220));
+	border: none;
+	border-radius: 20px;
+	
+	font-weight: bolder;
+}
+.buyer_button a{
+	color: white;
+	font-weight: bolder;
+}
+.farmer_button a{
+	color: white;
+	font-weight: bolder;
+}
+#loginfarmerdiv{
+	background-color: black;
+	
+}
+#farmerloginbutton{
+	height: 40px;
+	width: 100px;
+	position: absolute;
+	left: 60%;
+	top: 410px;
+	text-decoration: none;
+	color: red;
+	background-image: linear-gradient(45deg, rgba(130, 89, 219, 0.2),rgba(44, 192, 226, 0.2),rgba(182, 103, 181, 0.2)),linear-gradient(135deg, rgb(39, 20, 149),rgb(65, 82, 185),rgb(91, 144, 220));
+	border: none;
+	border-radius: 20px;
+	
+	font-weight: bolder;
+}

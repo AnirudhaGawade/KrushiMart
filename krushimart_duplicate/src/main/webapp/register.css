@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+a{
+	text-decoration: none;
+	color: #0e55eb;
+}
+.maindiv{
+	height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle at 29% 55%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 4%,transparent 4%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 85% 89%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 52%,transparent 52%, transparent 100%),radial-gradient(circle at 6% 90%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 53%,transparent 53%, transparent 64%,transparent 64%, transparent 100%),radial-gradient(circle at 35% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 6%,transparent 6%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 56% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 16%,transparent 16%, transparent 23%,transparent 23%, transparent 100%),radial-gradient(circle at 42% 0%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 3%,transparent 3%, transparent 26%,transparent 26%, transparent 100%),radial-gradient(circle at 29% 28%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 75%,transparent 75%, transparent 100%),radial-gradient(circle at 77% 21%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 35%,transparent 35%, transparent 55%,transparent 55%, transparent 100%),radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 46%,transparent 46%, transparent 76%,transparent 76%, transparent 100%),linear-gradient(45deg, rgb(83, 91, 235),rgb(76, 11, 174));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#subdiv{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	height: 90%;
+	width: 70%;
+	border-radius: 35px;
+	position: absolute;
+	top: 30px;
+	left: 270px;
+}
+#img_div{
+	height: 100%;
+	width: 55%;
+	
+}
+#form_div{
+	height: 100%;
+	width: 45%;
+	
+}
+#farmer_icon{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	height: 95%;
+    width: 50%;
+   border-radius: 20px;
+}
+.inp{
+	height: 50px;
+	width: 250px;
+	border: none;
+	outline: none;
+	background-color: whitesmoke;
+	padding-left: 10px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+.radio{
+	visibility: hidden;
+}
+#form_content_div{
+	position: relative;
+	top: 50px;
+	left: 70px;
+	
+}
+#form_content_div h4{
+	position: absolute;
+    top: -31px;
+    left: 5px;
+	
+}
+.btn{
+	border: none;
+	color: white;
+	background-color:#0e55eb;
+	font-weight: bolder;
+	width: 255px;
+	height: 40px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+#form_content_div h5{
+	position: relative;
+    left: 51px;
+    top: -10px;
+	
+}
